@@ -1,4 +1,4 @@
-function test_Poisson2D_5pt(p)
+function test_Poisson2D(p)
 	n = 2^p - 1;      % Number of inner grid points on an edge
 	N = n * n;        % Number of inner grid points on (0,1)*(0,1)
 	rng(n);
